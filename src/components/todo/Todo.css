@@ -1,0 +1,50 @@
+.todo {
+  width: 100%;
+}
+
+.todo__item {
+  padding: 10px;
+  border: 1px solid#E6E6E6;
+  margin-bottom: 5px;
+  display: flex;
+}
+
+.todo__id {
+  width: 50px;
+}
+
+.todo__text {
+  padding-right: 10px;
+  padding-left: 10px;
+  flex-basis: 100%;
+}
+
+.todo__icons {
+  width: 100px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.todo__icon {
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.todo__icon:last-child {
+  margin-right: 0;
+}
+
+.icon_can:hover path{
+  fill: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon_pen:hover path{
+  fill:  #39B54A;
+  transition: all 0.3s ease-in-out;
+}
+
+.icon_loader {
+  margin: 20px auto 0;
+  display: block;
+}
